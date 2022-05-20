@@ -1,9 +1,10 @@
 import requests
 import unittest
 from data import *
+from config import appid
 
 api_endpoint = "https://api.openweathermap.org/data/2.5/weather?"
-appid = "c54e95f84d456b0dece44b9da8e0c9c6"
+
 lon = (city["coord"]["lon"])
 lat = (city["coord"]["lat"])
 invalid_lat = 131837.123
